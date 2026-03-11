@@ -2,16 +2,22 @@
 
 Este repositório contém um processo simplificado de ETL (Extração, Transformação e Carga) para processamento de dados de acidentes rodoviários no Brasil.
 
-## Instruções de Execução:
+## Instruções de Execução
 
-1. Clone este repositório;
-2. Crie um ambiente virtual: `python -m venv venv`;
+1. Clone este repositório em sua máquina:
+   `git clone https://github.com/kauesaula/etl-acidentes-br.git`
+2. Crie um ambiente virtual na pasta do projeto: 
+   `python -m venv venv`
 3. Ative o ambiente virtual:
-   - Windows: `venv\Scripts\activate`;
-   - Linux/Mac: `source venv/bin/activate`;
-4. Instale as dependências: `pip install pandas`;
-5. Certifique-se de que o arquivo original `acidentes_brasil.csv` está no diretório raiz;
-6. Execute o script principal: `python etl_script.py`.
+   - Windows: `venv\Scripts\activate`
+   - Linux/Mac: `source venv/bin/activate`
+4. Instale a biblioteca necessária: 
+   `pip install pandas`
+5. **Importante:** Como os dados originais não são versionados, certifique-se de colocar o arquivo bruto `acidentes_brasil.csv` (fornecido na descrição do case) solto no diretório raiz do projeto.
+6. Execute o pipeline de dados (Ingestão, Transformação e Carga): 
+   `python case.py`
+7. (Opcional) Para validar a query de contagem de acidentes rodando em um banco de dados local (SQLite), execute:
+   `python testesql.py`
 
 ## Documentação das Transformações (Camada Prata)
 
