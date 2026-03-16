@@ -14,7 +14,7 @@ Este repositório contém um processo simplificado de ETL (Extração, Transform
 4. Instale a biblioteca necessária: 
    `pip install pandas`
 5. **Importante:** Como os dados originais não são versionados, certifique-se de colocar o arquivo bruto `acidentes_brasil.csv` (fornecido na descrição do case) solto no diretório raiz do projeto.
-6. Navegue até o diretório raiz, copie seu caminho e acesse-o pelo cmd `cd C:\Users\Home\etl-acidentes-br`
+6. Navegue até o diretório raiz, copie seu caminho e acesse-o pelo cmd. EXEMPLO: `cd C:\Users\Home\etl-acidentes-br`
 7. Execute o pipeline de dados (Ingestão, Transformação e Carga): 
    `python case.py`
 
