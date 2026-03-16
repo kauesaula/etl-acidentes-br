@@ -14,9 +14,10 @@ Este repositório contém um processo simplificado de ETL (Extração, Transform
 4. Instale a biblioteca necessária: 
    `pip install pandas`
 5. **Importante:** Como os dados originais não são versionados, certifique-se de colocar o arquivo bruto `acidentes_brasil.csv` (fornecido na descrição do case) solto no diretório raiz do projeto.
-6. Execute o pipeline de dados (Ingestão, Transformação e Carga): 
+6. Navegue até o diretório raiz, copie seu caminho e acesse-o pelo cmd `cd C:\Users\Home\etl-acidentes-br`
+7. Execute o pipeline de dados (Ingestão, Transformação e Carga): 
    `python case.py`
-7. (Opcional) Para validar a query de contagem de acidentes rodando em um banco de dados local (SQLite), execute:
+8. (Opcional) Para validar a query de contagem de acidentes rodando em um banco de dados local (SQLite), execute:
    `python testesql.py`
 
 ## Documentação das Transformações (Camada Prata)
