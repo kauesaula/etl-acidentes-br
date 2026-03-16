@@ -17,8 +17,6 @@ Este repositório contém um processo simplificado de ETL (Extração, Transform
 6. Navegue até o diretório raiz, copie seu caminho e acesse-o pelo cmd `cd C:\Users\Home\etl-acidentes-br`
 7. Execute o pipeline de dados (Ingestão, Transformação e Carga): 
    `python case.py`
-8. (Opcional) Para validar a query de contagem de acidentes rodando em um banco de dados local (SQLite), execute:
-   `python testesql.py`
 
 ## Documentação das Transformações (Camada Prata)
 
